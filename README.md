@@ -1,16 +1,13 @@
-# app_flutter
+## Configuración de Variables de Entorno
 
-A new Flutter project.
+Este proyecto utiliza variables de entorno para almacenar claves API y otras configuraciones sensibles. Para configurar las variables de entorno:
 
-## Getting Started
+1. Crea un archivo `.env` en la raíz del proyecto.
+2. Copia el contenido de `.env.example` en el nuevo archivo `.env`.
+3. Rellena los valores necesarios en el archivo `.env`.
 
-This project is a starting point for a Flutter application.
+Ejemplo:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+cp .env.example .env
+nano .env
